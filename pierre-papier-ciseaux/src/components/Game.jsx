@@ -3,9 +3,9 @@ import ChoiceButton from "./ChoiceButton";
 import Result from "./Result";
 
 // Import des images
-import rockIcon from "src/images/icon-rock.svg";
-import paperIcon from "src/images/icon-paper.svg";
-import scissorsIcon from "src/images/icon-scissors.svg";
+import rockIcon from "../assets/images/icon-rock.svg";
+import paperIcon from "../assets/images/icon-paper.svg";
+import scissorsIcon from "../assets/images/icon-scissors.svg";
 
 // Tableau des choix
 const choices = ["pierre", "papier", "ciseaux"];

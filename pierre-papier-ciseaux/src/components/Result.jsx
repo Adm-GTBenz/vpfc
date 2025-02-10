@@ -1,8 +1,8 @@
 function Result({ userChoice, computerChoice, result }) {
     const images = {
-      pierre: "/src/icon-rock.svg",
-      papier: "/src/icon-paper.svg",
-      ciseaux: "/src/icon-scissors.svg",
+      pierre: "/assets/images/icon-rock.svg",
+      papier: "/assets/images/icon-paper.svg",
+      ciseaux: "/assets/images/icon-scissors.svg",
     };
   
     return (
