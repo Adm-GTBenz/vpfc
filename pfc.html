@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pierre-Papier-Ciseaux</title>
-    <link rel="stylesheet" href="pfc.css
-    ">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pfc.css">
 </head>
 <body>
     <h1>Pierre-Papier-Ciseaux</h1>
     <div class="game">
-        <button class="choice" id="pierre">🪨 Pierre</button>
-        <button class="choice" id="papier">📄 Papier</button>
-        <button class="choice" id="ciseaux">✂️ Ciseaux</button>
+        <button class="choice" id="pierre">
+            <img src="./images/icon-rock.svg" alt="Pierre">
+        </button>
+        <button class="choice" id="papier">
+            <img src="./images/icon-paper.svg" alt="Papier">
+        </button>
+        <button class="choice" id="ciseaux">
+            <img src="./images/icon-scissors.svg" alt="Ciseaux">
+        </button>
     </div>
     <p id="resultat">Choisissez une option !</p>
     <script src="pfc.js"></script>

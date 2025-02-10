@@ -13,3 +13,68 @@ button {
     margin: 5px;
     cursor: pointer;
 }
+
+/* Appliquer un dégradé en arrière-plan */
+body {
+    background: radial-gradient(circle, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    color: hsl(229, 25%, 31%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: center;
+}
+
+/* Style des boutons avec dégradés */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button img {
+    width: 120px;
+    height: 120px;
+    transition: transform 0.2s;
+}
+
+button img:hover {
+    transform: scale(1.1);
+}
+
+/* Couleurs des choix */
+#pierre img {
+    background: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%)); /* Rock */
+    border-radius: 50%;
+    padding: 20px;
+}
+
+#papier img {
+    background: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%)); /* Paper */
+    border-radius: 50%;
+    padding: 20px;
+}
+
+#ciseaux img {
+    background: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%)); /* Scissors */
+    border-radius: 50%;
+    padding: 20px;
+}
+
+/* Score et titres */
+h1 {
+    color: hsl(229, 64%, 46%);
+}
+
+@keyframes flash {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.gagne {
+    color: green;
+    animation: flash 0.5s ease-in-out 3;
+}
+
+.perdu {
+    color: red;
+    animation: flash 0.5s ease-in-out 3;
+}
